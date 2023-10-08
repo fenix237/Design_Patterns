@@ -5,3 +5,5 @@ Chaque sous Branche correspond a une categorie de patron, Ainsi nous avons:
 -Les patrons de constructions: Abstract Factory, Builder, Factory Methode, Prototype et Singleton.
 -Les patrons de structuration: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, et proxy.
 -Les patrons de comportement: Chain of responsability,Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method et Visitor.
+
+Ainsi pour chaque patron, nous avons un model de base et un modele modifie avec ajout d'une troisieme instance
