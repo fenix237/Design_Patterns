@@ -4,6 +4,8 @@ import Design_Patterns.AbstractFactory.AbstractFactoryModifie.Produit.ProduitA;
 import Design_Patterns.AbstractFactory.AbstractFactoryModifie.Produit.ProduitA1;
 import Design_Patterns.AbstractFactory.AbstractFactoryModifie.Produit.ProduitB;
 import Design_Patterns.AbstractFactory.AbstractFactoryModifie.Produit.ProduitB1;
+import Design_Patterns.AbstractFactory.AbstractFactoryModifie.Produit.ProduitC;
+import Design_Patterns.AbstractFactory.AbstractFactoryModifie.Produit.ProduitC1;
 
 public class FabriqueConcrete1 implements FabriqueAbstraite{
 
@@ -18,7 +20,12 @@ public class FabriqueConcrete1 implements FabriqueAbstraite{
             
    
     }
+
+    public ProduitC createProduitC(){
+        return new ProduitC1();
+            
+   
+    }
     
 }
-
 
