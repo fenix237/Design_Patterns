@@ -7,11 +7,11 @@ public final class Arithmetique {
     private int x;
     private int y;
     
-    public Arithmetique() {
+    private Arithmetique() {
         super();
     }
 
-    public Arithmetique(int x, int y) {
+    private Arithmetique(int x, int y) {
         this.x = x;
         this.y = y;
     }
