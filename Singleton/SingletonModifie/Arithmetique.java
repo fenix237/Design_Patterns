@@ -29,7 +29,7 @@ public final class Arithmetique {
         if(instance==null){
             System.out.print("\nCreation d'une nouvelle instance\n");
             instance=new Arithmetique();
-            System.out.print("\nInstance cree\n");
+            System.out.print("\nInstance cree!\n");
         }
 
         return instance;
@@ -39,7 +39,7 @@ public final class Arithmetique {
         if (instance ==null){
             System.out.print("\nCreation d'une nouvelle instance\n");
             instance=new Arithmetique(x,y);
-            System.out.print("\nInstance cree\n");
+            System.out.print("\nInstance cree!\n");
         }
 
         return instance;
