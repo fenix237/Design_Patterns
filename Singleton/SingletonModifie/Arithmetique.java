@@ -9,16 +9,16 @@ public final class Arithmetique {
     private int z;
 
   
-    public Arithmetique() {
+    private Arithmetique() {
         super();
     }
 
-    public Arithmetique(int x, int y) {
+    private Arithmetique(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    public Arithmetique(int x, int y,int z) {
+    private Arithmetique(int x, int y,int z) {
         this.x = x;
         this.y = y;
         this.z=z;
