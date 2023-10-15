@@ -26,7 +26,7 @@ public class Client {
         pizza = directeur.getPizza();
         pizza.print();
 
-        System.out.println("\n**********************");
+        System.out.println("\n***********************");
 
         System.out.println("\nPizza reine\n");
 
