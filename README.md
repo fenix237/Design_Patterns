@@ -94,5 +94,7 @@ et de l'avoir mi dans les variables d'environnement
 
 ## Auteur
 
-Indiquez ici votre nom ou le nom de votre équipe.
+Dongmo Giresse <br>
+Developpeur Web et Mobile
+
 
