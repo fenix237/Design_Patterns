@@ -6,7 +6,7 @@ import Design_Patterns.Adapter.AdapterExemple2DeBase.Objets.Object;
 public class DList {
 
     public void insert(Dnode pos , Object o ){
-        System.out.println("Inserer dnode et l'ojet");
+        System.out.println("Inserer dnode et l'objet");
 
     }
 
