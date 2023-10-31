@@ -1,6 +1,7 @@
 package Design_Patterns.Adapter.AdapterExemple2DeBase;
 
 import Design_Patterns.Adapter.AdapterExemple2DeBase.Adapteur.DListImpStack;
+import Design_Patterns.Adapter.AdapterExemple2DeBase.Interface.Stack;
 import Design_Patterns.Adapter.AdapterExemple2DeBase.Objets.Object;
 
 public class Client {
@@ -8,11 +9,11 @@ public class Client {
 
         System.out.println("PATRON ADAPTER Cas de L'exemple 2");
         Object object1 = new Object();
-        DListImpStack dListImpStack = new DListImpStack();
+        Stack stack = new DListImpStack();
         object1.print();
-        dListImpStack.push(object1);
-        dListImpStack.pop();
-        dListImpStack.top();
+        stack.push(object1);
+        stack.pop();
+        stack.top();
 
 
 

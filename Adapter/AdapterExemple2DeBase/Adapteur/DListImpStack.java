@@ -4,7 +4,7 @@ import Design_Patterns.Adapter.AdapterExemple2DeBase.Adapte.DList;
 import Design_Patterns.Adapter.AdapterExemple2DeBase.Interface.Stack;
 import Design_Patterns.Adapter.AdapterExemple2DeBase.Objets.Object;
 
-public class DListImpStack extends DList implements Stack{
+public class DListImpStack  implements Stack{
 
     DList dlist=new DList();
     public void push(Object o){
