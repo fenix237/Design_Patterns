@@ -6,7 +6,7 @@ import Design_Patterns.Adapter.AdapterExemple2Modifie.Objet.Object;
 
 public class DListImpStack extends DList implements Stack{
 
-    DList dlist;
+    DList  dlist;
     public void push(Object o){
         dlist.insertTail(o);
     }
