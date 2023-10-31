@@ -10,7 +10,7 @@ public abstract class DList {
     }
 
     public void remove(Dnode pos){
-        System.out.println("Retirer Dnode");
+        System.out.println("Retirer Dnode ");
     }
     
     public void insertHead(Object o ){
