@@ -6,17 +6,17 @@ import Design_Patterns.Adapter.AdapterExemple2Modifie.Objet.Object;
 
 public class DListImpStack extends DList implements Stack{
 
-    DList  dlist;
+   
     public void push(Object o){
-        dlist.insertTail(o);
+        insertTail(o);
     }
 
     public Object pop(){
-        return dlist.removeTail();
+        return removeTail();
     }
 
     public Object top(){
-        return dlist.getTail();
+        return getTail();
 
     }
 
