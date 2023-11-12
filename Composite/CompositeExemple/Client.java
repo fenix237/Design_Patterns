@@ -11,7 +11,6 @@ public class Client {
         System.out.println("\n******************************\n");
         
         Paragraphe paragraphe=new Paragraphe();
-
         paragraphe.longueur();
 
         System.out.println("\n******************************\n");
@@ -21,7 +20,7 @@ public class Client {
 
         System.out.println("\n******************************\n");
         section.longueur();
-            
+
         System.out.println("\n******************************\n");
         section.retrait(1);
         
