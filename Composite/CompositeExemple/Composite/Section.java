@@ -13,7 +13,7 @@ public class Section extends Texte{
     }
     public void ajout(Texte texte){
        
-        System.out.println("\najout du texte "+texte);
+        System.out.println("\najout du texte " +texte);
 
     }
     public void retrait(int index){
