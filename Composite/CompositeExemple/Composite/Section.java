@@ -6,10 +6,10 @@ import Design_Patterns.Composite.CompositeExemple.Component.Texte;
 
 public class Section extends Texte{
 
-    
+
 
     public void longueur(){
-        System.out.println("\nAffichage de la longueur du texte\n");
+        System.out.println("\nAffichage de la longueur du  texte\n");
     }
     public void ajout(Texte texte){
        
