@@ -7,6 +7,7 @@ public abstract class Texte {
    private String titre;
    private String preambule;
    protected Section sousSection;
+   
 
    public abstract void longueur();
 
