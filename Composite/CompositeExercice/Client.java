@@ -34,6 +34,7 @@ public class Client {
         System.out.println("\n**************************\n");    
         dossier.decrire();
 
+        
         System.out.println("Obtention de l'elemet i");
         ElementSystem file = dossier.obtenir(1);
         file.decrire();
