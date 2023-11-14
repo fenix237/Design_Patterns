@@ -11,7 +11,12 @@ public class Dossier implements ElementSystem{
     private String type="Dossier";
     private List<ElementSystem> elements= new ArrayList<>();
 
+    
    
+    public Dossier(String nom) {
+        this.nom = nom;
+    }
+
     public void decrire() {
         System.out.println("\n le nom est :"+this.nom);
         System.out.println("le type d'element est: "+type);
