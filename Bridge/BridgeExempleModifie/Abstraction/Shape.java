@@ -9,7 +9,8 @@ public abstract class Shape {
     public Shape(Color color) {
         this.color = color;
     }
+    
 
     abstract public void colorIt();
-    
+
 }
