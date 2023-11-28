@@ -9,11 +9,17 @@ public class DecorateurCurseurVertical extends DecorateurFenetre{
         super(fenetre);
       
     }
+    @Override
     public void dessiner(){
-        System.out.println("Dessin de la fenetre");
+        super.dessiner();
+        dessinerCurseur();
+       
     }
+    @Override
     public void decrire(){
-        System.out.println("Description de la fenetre");
+        super.decrire();
+        System.out.println("Avec ajout du curseur vertical");
+
 
     }
     public void dessinerCurseur(){
