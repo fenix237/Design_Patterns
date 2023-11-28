@@ -27,6 +27,7 @@ public class BridgeModifieDesignPatternMain {
         s3.colorIt();
 
         System.out.println("\n\n*****************************\n\n");
+        
     }
     
 }
