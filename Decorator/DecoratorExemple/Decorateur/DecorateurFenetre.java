@@ -6,7 +6,7 @@ public abstract class DecorateurFenetre implements Fenetre {
 
     protected Fenetre fenetreDecoree;
     public DecorateurFenetre(Fenetre fenetre){
-
+        
     }
     
 }
