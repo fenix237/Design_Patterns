@@ -61,3 +61,40 @@ et de l'avoir mi dans les variables d'environnement
 2. Aller dans votre IDE java prefere
 3. aller au repertoir du factory souhaite (de base ou modifie),puis dans le fichier Client
 4. cliquer sur Run
+
+
+## Bridge 
+
+### Description
+ Le Patron Bridge découpler l’interface d’une classe et son
+implémentation, permettant à l'interface et l'implementation de varier séparément.
+
+### Participants
+
+- Abstraction:  définit l’interface de l’abstraction; gère une référence
+à un objet de type implémentation.
+- RefineAbstration: enrichit l’interface définie par l’abstraction pour
+constituer une classe concrète
+- Implementor: définit l’interface commune pour toutes les
+implémentations concrètes. En général elle définit des opérations
+primitives
+- ConcreteImplementor: réalise concrètement l’implémentation de
+l’interface.
+- bridge: lien d’association qui fait le pont entre l’abstraction et
+l’implémentation.
+
+
+### Structure
+
+- Version de Base : La version de l'exemple de base du patron est située dans le répertoire Bridge/BridgeExemple.
+- Version Modifiée : La version modifiée du patron est située dans le répertoire Bridge/BridgeExempleModifie et Bridge/BridgeExempleModifie2
+
+### Exécution
+
+Pour executer le programme, 
+1. s'assurer d'avoir installe java
+et de l'avoir mi dans les variables d'environnement
+2. Aller dans votre IDE java prefere
+3. aller au repertoir du bridge souhaité (de base ou modifie),puis dans le fichier Bridge(Modifie)DesignPatternMain.java
+4. cliquer sur Run
+
