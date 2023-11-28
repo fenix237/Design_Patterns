@@ -16,7 +16,7 @@ public class DecorateurCurseurHorizontal extends DecorateurFenetre{
         System.out.println("Description de la fenetre");
 
     }
-    public void dessinerCurseurHorizontal(){
+    public void dessinerCurseur(){
         System.out.println("Ajout curseur horizontal");
     }
 
