@@ -18,12 +18,12 @@ public class DecorateurCurseurHorizontal extends DecorateurFenetre{
     @Override
     public void decrire(){
         super.decrire();
-        System.out.println("  Avec ajout du curseur horizontal");
+        System.out.println("avec defilement horizontal");
 
 
     }
     public void dessinerCurseur(){
-        System.out.println("Ajout curseur horizontal");
+        System.out.println("Dessin du curseur horizontal");
     }
 
     

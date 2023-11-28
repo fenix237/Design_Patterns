@@ -18,12 +18,12 @@ public class DecorateurCurseurVertical extends DecorateurFenetre{
     @Override
     public void decrire(){
         super.decrire();
-        System.out.println("Avec ajout du curseur vertical");
+        System.out.println("Avec defileemnt vertical");
 
 
     }
     public void dessinerCurseur(){
-        System.out.println("Ajout curseur vertical");
+        System.out.println("Dessin du curseur vertical");
     }
 
     
