@@ -10,13 +10,14 @@ public class DecorateurCurseurVertical extends DecorateurFenetre{
       
     }
     public void dessiner(){
-
+        System.out.println("Dessin de la fenetre");
     }
     public void decrire(){
+        System.out.println("Description de la fenetre");
 
     }
     public void dessinerCurseurVertical(){
-        
+        System.out.println("Ajout curseur vertical");
     }
 
     
