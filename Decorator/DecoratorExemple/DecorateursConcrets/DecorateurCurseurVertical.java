@@ -18,7 +18,7 @@ public class DecorateurCurseurVertical extends DecorateurFenetre{
     @Override
     public void decrire(){
         super.decrire();
-        System.out.println("Avec defileemnt vertical");
+        System.out.println("Avec defilement vertical");
 
 
     }
