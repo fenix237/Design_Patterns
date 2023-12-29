@@ -1,7 +1,50 @@
-# Design_Patterns
-Elaboration des differents patrons de conception par categorie
+# DESIGN PATTERNS: PATRONS DE STRUCTURATION
 
-Chaque Branche correspond a une categorie de patron, Ainsi nous avons:
--Les patrons de constructions: Abstract Factory, Builder, Factory Methode, Prototype et Singleton.
--Les patrons de structuration: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, et proxy.
--Les patrons de comportement: Chain of responsability,Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method et Visitor.
+Ce projet illustre l'utilisation de différents patrons de construction dans le développement d'applications. Chaque patron dispose d'une version de base et une version modifie.Parmi eux nous avons: le factory, le factory method, l'abstract factory, le builder et le singleton
+
+
+## Template 
+
+### Description
+ 
+
+### Participants
+
+
+
+### Structure
+
+
+
+### Exécution
+
+Pour executer le programme, 
+1. s'assurer d'avoir installe java
+et de l'avoir mi dans les variables d'environnement
+2. Aller dans votre IDE java prefere
+3. aller au repertoir du factory souhaite (de base ou modifie),puis dans le fichier Client
+4. cliquer sur Run
+
+
+## Composite 
+
+### Description
+
+### Participants
+
+
+
+
+### Structure
+
+- Version de Base : La version de l'exemple 2 de base du patron est située dans le répertoire Composite/CompositeEx.
+- Version Modifiée : La version modifiée du patron est située dans le répertoire Adapter/AdapterExemple2Modifie.
+
+### Exécution
+
+Pour executer le programme, 
+1. s'assurer d'avoir installe java
+et de l'avoir mi dans les variables d'environnement
+2. Aller dans votre IDE java prefere
+3. aller au repertoir du factory souhaite (de base ou modifie),puis dans le fichier Client
+4. cliquer sur Run
