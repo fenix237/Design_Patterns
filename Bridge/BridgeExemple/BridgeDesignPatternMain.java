@@ -19,6 +19,6 @@ public class BridgeDesignPatternMain {
         Shape s2 = new Circle(new BlueColor());
         s2.colorIt();
 
-        System.out.println("\n\n*****************************\n\n");
+        System.out.println("\n\n********************************\n\n");
     }
 }
